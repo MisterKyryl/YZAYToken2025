@@ -166,6 +166,9 @@ h6 {
   gap: 2.75rem
 }
 .header__visit {
+  display: flex;
+  align-items: center;
+  gap: 3.125rem;
   padding: 1rem .5rem;
   font-weight: 300;
   font-size: 1rem;
@@ -193,6 +196,12 @@ h6 {
 }
 .header__visit-link:hover path {
   fill: #fff
+}
+.header__home-link {
+  transition: color .3s
+}
+.header__home-link:hover {
+  color: #fff
 }
 .header__list {
   display: flex;

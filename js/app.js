@@ -30,9 +30,9 @@
         const htmlEl = document.documentElement;
         if (htmlEl.classList.contains("light")) {
             const mainImg = document.querySelector(".main__image img.main__picture");
-            if (mainImg) mainImg.src = "img/main/bg-light.webp";
+            if (mainImg) mainImg.src = "img/main/bg-light.png";
             const mainImgMob = document.querySelector(".main__image-mob img.main__picture-mob");
-            if (mainImgMob) mainImgMob.src = "img/main/bg-mob-light.webp";
+            if (mainImgMob) mainImgMob.src = "img/main/bg-mob-light.png";
         }
     }));
     window["FLS"] = true;
