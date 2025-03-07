@@ -19,7 +19,7 @@
     const now = new Date;
     const hour = now.getHours();
     const htmlEl = document.documentElement;
-    if (hour >= 20 || hour < 14) {
+    if (hour >= 20 || hour < 6) {
         htmlEl.classList.add("dark");
         htmlEl.classList.remove("light");
     } else {
